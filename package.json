@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index",
-    "fix":"eslint --fix"
+    "fix": "eslint --fix"
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^4.17.16",
+    "@types/pg": "^8.6.6",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "@typescript-eslint/parser": "^5.48.1",
     "eslint": "^8.31.0",
     "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.9.0"
   }
 }
